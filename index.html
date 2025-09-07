@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>iPhone 17 Pro Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">iPhone 17 Pro</div>
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#buy">Buy Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>The Future is Here</h1>
+      <p>Experience the new iPhone 17 Pro with breakthrough technology and design.</p>
+      <a href="#buy" class="btn-primary">Order Now</a>
+    </div>
+    <img src="iphone17pro.jpg" alt="iPhone 17 Pro" class="hero-image" />
+  </section>
+
+  <section id="features" class="features-section">
+    <h2>Features</h2>
+    <div class="features-grid">
+      <div class="feature-item">
+        <img src="camera.webp" alt="Camera" />
+        <h3>Revolutionary Camera</h3>
+        <p>Capture stunning photos with a triple-lens system and night mode.</p>
+      </div>
+      <div class="feature-item">
+        <img src="batteryimg.webp" alt="Battery" />
+        <h3>All-day Battery</h3>
+        <p>Stay powered longer with our enhanced battery technology.</p>
+      </div>
+      <div class="feature-item">
+        <img src="per.jpg" alt="Performance" />
+        <h3>Blazing Performance</h3>
+        <p>Powered by the new A17 chip for fast and smooth multitasking.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="gallery-section">
+    <h2>Gallery</h2>
+    <div class="gallery-images">
+      <img src="side.jpg" alt="iPhone side view" />
+      <img src="back.jpg" alt="iPhone back view" />
+      <img src="front.jpg" alt="iPhone front view" />
+    </div>
+  </section>
+
+  <section id="buy" class="buy-section">
+    <h2>Order Your iPhone 17 Pro Today</h2>
+    <form id="orderForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <button type="submit" class="btn-primary">Place Order</button>
+    </form>
+    <p id="successMessage" class="success-message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 iPhone 17 Pro. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
